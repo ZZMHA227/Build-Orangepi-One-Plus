@@ -20,3 +20,6 @@ echo 'git clone https://github.com/iwrt/luci-app-ikoolproxy.git package/luci-app
 echo 'git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >> feeds.conf.default
 echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >> feeds.conf.default
+### 获取额外的 LuCI 应用、主题和依赖 ###
+git clone https://github.com/iwrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
