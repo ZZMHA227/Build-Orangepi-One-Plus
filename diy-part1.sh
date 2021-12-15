@@ -25,3 +25,4 @@ git clone https://github.com/iwrt/luci-app-ikoolproxy.git package/luci-app-ikool
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 git clone -b master --depth 1 https://github.com/messense/aliyundrive-webdav/trunk/openwrt/aliyundrive-webdav.git package/new/aliyundrive-webdav
 git clone -b master --depth 1 https://github.com/messense/aliyundrive-webdav/trunk/openwrt/luci-app-aliyundrive-webdav.git package/new/luci-app-aliyundrive-webdav
+git clone -b master --depth 1 https://github.com/kiddin9/luci-theme-edge.git package/new/luci-theme-edge
