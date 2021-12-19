@@ -24,3 +24,5 @@ echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >
 git clone https://github.com/iwrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 git clone -b master --depth 1 https://github.com/kiddin9/luci-theme-edge package/new/luci-theme-edge
+wget -P package/new/luci-theme-argon/htdocs/luci-static/argon/background/ https://github.com/QiuSimons/OpenWrt-Add/raw/master/5808303.jpg
+rm -rf ./package/new/luci-theme-argon/htdocs/luci-static/argon/background/README.md
