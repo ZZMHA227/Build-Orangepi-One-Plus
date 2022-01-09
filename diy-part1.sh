@@ -27,3 +27,4 @@ git clone -b master --depth 1 https://github.com/kiddin9/luci-theme-edge package
 svn co https://github.com/QiuSimons/openwrt-mos/trunk/mosdns package/new/mosdns
 svn co https://github.com/QiuSimons/openwrt-mos/trunk/luci-app-mosdns package/new/luci-app-mosdns
 git clone https://github.com/lisaac/luci-app-diskman.git package/luci-app-diskman
+git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
