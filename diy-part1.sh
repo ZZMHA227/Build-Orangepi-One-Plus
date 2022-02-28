@@ -28,4 +28,4 @@ svn co https://github.com/QiuSimons/openwrt-mos/trunk/mosdns package/new/mosdns
 svn co https://github.com/QiuSimons/openwrt-mos/trunk/luci-app-mosdns package/new/luci-app-mosdns
 git clone https://github.com/lisaac/luci-app-diskman.git package/luci-app-diskman
 git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
-git clone https://github.com/thinktip/luci-theme-neobird.git  package/luci-theme-neobird
+git clone https://github.com/XXKDB/luci-theme-argon_armygreen.git  package/luci-theme-argon_armygreen
