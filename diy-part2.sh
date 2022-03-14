@@ -14,7 +14,7 @@
 sed -i 's/192.168.1.1/192.168.5.2/g' package/base-files/files/bin/config_generate
 #专属优化
 sed -i 's,-mcpu=generic,-mcpu=cortex-a53+crypto,g' include/target.mk
-cp -f ../PATCH/100-Implements-AES-and-GCM-with-ARMv8-Crypto-Extensions.patch ./package/libs/mbedtls/patches/100-Implements-AES-and-GCM-with-ARMv8-Crypto-Extensions.patch
+cp -f ../PATCH/102-arm64-dts-allwinner-h6-Enable-CPU-opp-tables-for-orangepi.patch ./package/target/linux/sunxi/patches-5.4/102-arm64-dts-allwinner-h6-Enable-CPU-opp-tables-for-orangepi.patch
 
 #Vermagic
 latest_version="$(curl -s https://github.com/openwrt/openwrt/tags | grep -Eo "v[0-9\.]+\-*r*c*[0-9]*.tar.gz" | sed -n '/[2-9][0-9]/p' | sed -n 1p | sed 's/v//g' | sed 's/.tar.gz//g')"
