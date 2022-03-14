@@ -30,5 +30,6 @@ popd
 #One Plus CPU 调节
 #git clone --depth=1 https://github.com/ZZMHA227/OOP-CPU.git ./package/target/linux/sunxi/patches-5.4/102-arm64-dts-allwinner-h6-Enable-CPU-opp-tables-for-orangepi.patch
 
+cp -f ../PATCH/102-arm64-dts-allwinner-h6-Enable-CPU-opp-tables-for-orangepi.patch ./package/target/linux/sunxi/patches-5.4/102-arm64-dts-allwinner-h6-Enable-CPU-opp-tables-for-orangepi.patch
 
 
