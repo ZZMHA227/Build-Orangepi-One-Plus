@@ -1,4 +1,6 @@
 #!/bin/bash
+clear
+
 #
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
 #
@@ -26,7 +28,7 @@ sed -i 's/ImmortalWrt/OpenWrt/g' config_generate
 popd
 
 #One Plus CPU 调节
-git clone --depth=1 https://github.com/ZZMHA227/OOP-CPU.git ./package/target/linux/sunxi/patches-5.4/102-arm64-dts-allwinner-h6-Enable-CPU-opp-tables-for-orangepi.patch
+#git clone --depth=1 https://github.com/ZZMHA227/OOP-CPU.git ./package/target/linux/sunxi/patches-5.4/102-arm64-dts-allwinner-h6-Enable-CPU-opp-tables-for-orangepi.patch
 
 
 
