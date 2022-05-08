@@ -20,5 +20,5 @@ echo "src-git passwallluci https://github.com/xiaorouji/openwrt-passwall.git;luc
 echo "src-git bypass https://github.com/kiddin9/openwrt-bypass.git" >> "feeds.conf.default"
 
 #One Plus CPU 调节
-#git clone --depth=1 https://github.com/ZZMHA227/OOP-CPU.git ./target/linux/sunxi/patches-5.4/102-arm64-dts-allwinner-h6-Enable-CPU-opp-tables-for-orangepi.patch
-wget https://github.com/immortalwrt/immortalwrt/blob/726cbc3b62695eb890ef2d2b5074d751cb6d9494/target/linux/sunxi/patches-5.4/103-arm64-dts-allwinner-h6-Enable-CPU-opp-tables-for-orangepi.patch -O ./target/linux/sunxi/patches-5.4/103-arm64-dts-allwinner-h6-Enable-CPU-opp-tables-for-orangepi.patch
+git clone --depth=1 https://github.com/ZZMHA227/OOP-CPU.git ./target/linux/sunxi/patches-5.4/102-arm64-dts-allwinner-h6-Enable-CPU-opp-tables-for-orangepi.patch
+#wget https://github.com/immortalwrt/immortalwrt/blob/726cbc3b62695eb890ef2d2b5074d751cb6d9494/target/linux/sunxi/patches-5.4/103-arm64-dts-allwinner-h6-Enable-CPU-opp-tables-for-orangepi.patch -O ./target/linux/sunxi/patches-5.4/103-arm64-dts-allwinner-h6-Enable-CPU-opp-tables-for-orangepi.patch
